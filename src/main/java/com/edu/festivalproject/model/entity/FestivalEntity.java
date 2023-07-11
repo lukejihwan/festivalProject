@@ -1,5 +1,6 @@
 package com.edu.festivalproject.model.entity;
 
+
 import lombok.Data;
 
 import javax.persistence.*;

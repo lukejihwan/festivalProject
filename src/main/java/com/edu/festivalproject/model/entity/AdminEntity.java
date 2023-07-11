@@ -10,7 +10,7 @@ import javax.persistence.*;
 public class AdminEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer adminpk;
 
     @Column

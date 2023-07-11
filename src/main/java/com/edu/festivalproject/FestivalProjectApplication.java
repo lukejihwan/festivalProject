@@ -8,6 +8,7 @@ public class FestivalProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FestivalProjectApplication.class, args);
+
 	}
 
 }
