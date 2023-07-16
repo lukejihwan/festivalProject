@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AdminLogin</title>
+</head>
+<body>
+    <label>아이디 :</label>
+    <input type="text" id="t_id">
+    <label>패스워드 :</label>
+    <input type="text" id="t_pw">
+    <input type="button" value="로그인" id="bt_login">
+</body>
+<script type="text/javascript">
+//JQuery사용 안되서 이렇게 함...
+window.onload=function(){
+    bt_login.addEventListener('click',function(){
+        login();
+    });
+};
+
+function login(){
+    let t_id=document.t_id;
+    let t_pw=document.t_pw;
+
+    let xhr = new XMLHttpRequest();
+    xhr.open("POST", "", true);
+    //xhr.setRequestHeader("Con")
+}
+</script>
+</html>
