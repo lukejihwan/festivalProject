@@ -37,4 +37,4 @@ out/
 .vscode/
 
 ### secret file ###
-/application.properties
+application.properties
