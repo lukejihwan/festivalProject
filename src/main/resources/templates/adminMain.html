@@ -11,13 +11,15 @@
     <input type="text" id="t_pw">
     <input type="button" value="로그인" id="bt_login">
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script type="text/javascript">
 //JQuery사용 안되서 이렇게 함...
-window.onload=function(){
-    bt_login.addEventListener('click',function(){
+$(document).ready(function(){
+    $("#bt_login").click(function(){
         login();
     });
-};
+});
+
 
 function login(){
     let t_id=document.t_id;
@@ -26,6 +28,7 @@ function login(){
     let xhr = new XMLHttpRequest();
     xhr.open("POST", "", true);
     //xhr.setRequestHeader("Con")
+    console.log("로그인");
 }
 </script>
 </html>
