@@ -9,8 +9,13 @@ import org.springframework.web.servlet.ModelAndView;
 public class AdminController {
 
     @RequestMapping(value = "/admin")
-    public String getMain(){
+    public String getAdminLoginMain(){
         //이 컨트롤러가 static은 접근 못하고 templates폴더만 접근 가능함
         return "adminMain";
+    }
+
+    @RequestMapping(value = "/admin/page")
+    public String getAdminMain(){
+        return "adminPage/index";
     }
 }
