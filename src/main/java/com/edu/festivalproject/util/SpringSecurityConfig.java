@@ -23,10 +23,12 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
             .logout();
     }
 
+
     //spring security적용을 받지 않도록 하는 패턴을 적용하는 메서드
     //파일 하나에도 적용가능함. /adminMain.html 이런식으로
     @Override 
     public void configure(WebSecurity web){
         web.ignoring().antMatchers("/js/**", "/css/**", "/images/**","/adminMain.html");
+
     }
 }
