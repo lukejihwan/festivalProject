@@ -450,6 +450,7 @@
                type: "GET",
                success : function(result, status, xhr){
                   console.log(result);
+                  console.log("로그인 작동");
                },
                error:function(xhr, status, error){
                   console.log(error);
@@ -459,7 +460,7 @@
 
          $(document).ready(function(){
             $("#bt_login").on("click",function(){
-               console.log("로그인");
+               console.log("화면 로드 완료");
                login();
 
 
