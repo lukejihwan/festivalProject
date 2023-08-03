@@ -8,5 +8,6 @@ public class FestivalAPIManager {
     private String apiKey="";
 
     String requestUrl=""; //서비스키 숨길 공간이 필요
-
+    
+    //API요청하기
 }
