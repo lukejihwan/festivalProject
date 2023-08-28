@@ -38,3 +38,4 @@ out/
 
 ### secret file ###
 application.properties
+application-api-key.properties
