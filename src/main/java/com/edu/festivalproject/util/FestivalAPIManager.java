@@ -1,6 +1,8 @@
 package com.edu.festivalproject.util;
 
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 
 import java.io.BufferedReader;
@@ -11,6 +13,7 @@ import java.net.*;
 
 //축제 API요청하는 클래스
 public class FestivalAPIManager {
+    Logger logger= LoggerFactory.getLogger(this.getClass());
     @Value("${festival-api-key}")
     private String apiKey="";
 
@@ -28,7 +31,8 @@ public class FestivalAPIManager {
         urlBuilder.append("&" + URLEncoder.encode("cond[country_nm::EQ]", "UTF-8") + "=" + URLEncoder.encode("가나", "UTF-8")); /*한글 국가명*/
         urlBuilder.append("&" + URLEncoder.encode("cond[country_iso_alp2::EQ]", "UTF-8") + "=" + URLEncoder.encode("GH", "UTF-8")); /*ISO 2자리코드*/
 
-        System.out.println(apiKey);
+        //테스트를 위한 로그
+        logger.info(apiKey);
 
         // 3. URL 객체 생성.
         URL url = new URL(urlBuilder.toString());
