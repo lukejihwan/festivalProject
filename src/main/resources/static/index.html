@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -31,12 +31,13 @@
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 
       <!--타임리프 선언-->
-      <html xmlns:th="http://www.thymeleaf.org">
+      <html xmlns:th="http://www.thymeleaf.org"></html>
 
    </head>
    <body>
       <div class="header_section">
          <div class="container-fluid">
+            <input type="text" value="" th:text="">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                <a class="navbar-brand"href="index.html"><img src="images/logo.png"></a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
