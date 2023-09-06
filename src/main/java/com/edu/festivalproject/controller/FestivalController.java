@@ -1,5 +1,6 @@
 package com.edu.festivalproject.controller;
 
+import org.apache.catalina.connector.Request;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,12 +18,12 @@ public class FestivalController {
 
 
 
-    public String getFestival(){
+    public String getFestival(Request request){
 
         return null;
     }
 
-    public String UpdateFestival(){
+    public String UpdateFestival(Request request){
 
         return null;
     }
