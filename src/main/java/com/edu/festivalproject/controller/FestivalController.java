@@ -8,6 +8,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.io.IOException;
+
 @Controller
 @RequestMapping("/")
 public class FestivalController {
@@ -23,8 +25,8 @@ public class FestivalController {
 
 
 
-    public String getFestival(Request request){
-
+    public String getFestival(Request request) throws IOException {
+        festivalAPIManager.getfestival();
         return null;
     }
 
