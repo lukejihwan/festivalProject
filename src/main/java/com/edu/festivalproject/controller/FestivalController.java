@@ -27,7 +27,7 @@ public class FestivalController {
 
     public String getFestival(Request request) throws IOException {
         festivalAPIManager.getfestival();
-        return null;
+        return "";
     }
 
     public String UpdateFestival(Request request){
