@@ -8,6 +8,7 @@ class FestivalProjectApplicationTests {
 
 	@Test
 	void contextLoads() {
+        int num = 0;
 	}
 
 }
