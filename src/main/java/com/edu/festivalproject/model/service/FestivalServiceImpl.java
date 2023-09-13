@@ -8,6 +8,7 @@ public class FestivalServiceImpl implements FestivalService{
 
     @Override
     public String deleteFestival() {
+        System.out.println();
         return null;
     }
 
