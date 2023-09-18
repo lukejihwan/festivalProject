@@ -11,8 +11,7 @@ public class FestivalServiceImpl implements FestivalService{
     }
 
     @Override
-    public String deleteFestival() {
-        System.out.println();
+    public String deleteFestival(int festival_idx) {
         return null;
     }
 
