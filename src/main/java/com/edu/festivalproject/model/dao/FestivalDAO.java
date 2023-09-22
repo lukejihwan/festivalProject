@@ -7,4 +7,5 @@ public interface FestivalDAO {
     public String updateFestival();
 
     public String deleteFestival();
+
 }

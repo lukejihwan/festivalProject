@@ -26,6 +26,7 @@ public class AdminDAOHibernateImpl implements AdminDAO{
 
     @Override
     public long count() {
+        System.out.println();
         return 0;
     }
 
