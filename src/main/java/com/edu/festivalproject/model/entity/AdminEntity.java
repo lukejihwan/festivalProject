@@ -13,9 +13,9 @@ public class AdminEntity {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer adminpk;
 
-    @Column
+    @Column(name = "admin_id")
     private String adminid;
 
-    @Column
+    @Column(name = "admin_pw")
     private String adminpw;
 }
