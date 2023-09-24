@@ -8,7 +8,7 @@ import javax.persistence.*;
 @Table(name = "visitor")
 @Data
 public class VisitorEntity {
-
+public void get(){}
     @Id
     @GeneratedValue
     private Integer id;
