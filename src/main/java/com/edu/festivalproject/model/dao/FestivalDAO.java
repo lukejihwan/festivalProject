@@ -8,4 +8,6 @@ public interface FestivalDAO {
 
     public String deleteFestival();
 
+    public String fetchFestival();
+
 }

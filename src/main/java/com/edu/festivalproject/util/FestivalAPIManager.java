@@ -33,7 +33,6 @@ public class FestivalAPIManager {
 
         //테스트를 위한 로그
         logger.info(apiKey);
-        logger.info();
 
         // 3. URL 객체 생성.
         URL url = new URL(urlBuilder.toString());
