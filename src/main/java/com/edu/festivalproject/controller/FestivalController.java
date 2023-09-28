@@ -14,12 +14,12 @@ import java.io.IOException;
 @RequestMapping("/")
 public class FestivalController {
 
-    @Autowired
+    //@Autowired
     private FestivalAPIManager festivalAPIManager;
 
-    @GetMapping("/")
+    @GetMapping("/g")
     public String getFestivals(Model model){
-        model.addAttribute("data","Hello Spring");
+        //model.addAttribute("data","Hello Spring");
         return "main";
     }
 

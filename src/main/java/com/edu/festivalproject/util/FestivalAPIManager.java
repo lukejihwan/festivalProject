@@ -67,6 +67,8 @@ public class FestivalAPIManager {
         // 11. 전달받은 데이터 확인.
         System.out.println(sb.toString());
 
+        System.out.println("ok");
+
         return null;
     }
 
