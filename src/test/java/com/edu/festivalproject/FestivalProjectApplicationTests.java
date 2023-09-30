@@ -10,6 +10,7 @@ class FestivalProjectApplicationTests {
 	void contextLoads() {
 
         int num = 0;
+		System.out.println(num+10);
 	}
 
 }
