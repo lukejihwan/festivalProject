@@ -1,6 +1,7 @@
 package com.edu.festivalproject.model.dao;
 
 import com.edu.festivalproject.model.entity.AdminEntity;
+import com.edu.festivalproject.model.service.AdminService;
 import com.sun.xml.bind.v2.model.core.ID;
 import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +13,8 @@ import javax.persistence.EntityManager;
 public class AdminDAOHibernateImpl implements AdminDAO{
     @Autowired
     private EntityManager entityManager;
+    @Autowired
+    private AdminService adminService;
 
     public AdminDAOHibernateImpl(EntityManager entityManager) {
         this.entityManager = entityManager;
