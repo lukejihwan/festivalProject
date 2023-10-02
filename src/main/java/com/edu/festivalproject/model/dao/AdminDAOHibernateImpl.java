@@ -16,8 +16,9 @@ public class AdminDAOHibernateImpl implements AdminDAO{
     @Autowired
     private AdminService adminService;
 
-    public AdminDAOHibernateImpl(EntityManager entityManager) {
+    public AdminDAOHibernateImpl(EntityManager entityManager, AdminService adminService) {
         this.entityManager = entityManager;
+        this.adminService = adminService;
     }
 
     @Override
