@@ -10,9 +10,11 @@ class FestivalProjectApplicationTests {
 	void contextLoads() {
 
         int num = 0;
-		System.out.println(num+10);
+    	System.out.println(num+10);
         System.in();
         System.out.print();
+        System.in();
+        
 	}
 
 }
