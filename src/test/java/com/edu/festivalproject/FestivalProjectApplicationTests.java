@@ -13,7 +13,8 @@ class FestivalProjectApplicationTests {
     	System.out.println(num+10);
         System.in();
         System.out.print();
-        System.in();
+        System.in(new Inputstream（）);
+        
         
 	}
 
