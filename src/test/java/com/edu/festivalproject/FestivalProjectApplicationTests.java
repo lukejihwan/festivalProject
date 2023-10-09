@@ -14,7 +14,7 @@ class FestivalProjectApplicationTests {
         System.in();
         System.out.print();
         System.in(new Inputstream（）);
-        System.out.println();
+        System.out.println('로그 확인');
         
         
 	}
