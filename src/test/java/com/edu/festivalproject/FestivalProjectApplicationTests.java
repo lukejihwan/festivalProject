@@ -12,6 +12,11 @@ class FestivalProjectApplicationTests {
 	void contextLoads() {
 
 	}
+
+    @Test
+    void adminTest(){
+
+    }
     
     //Member 테스트
     @Test
@@ -22,7 +27,7 @@ class FestivalProjectApplicationTests {
     //축제API 테스트
     @Test
     void festivalTest(){
-        System.out.println();
+
     }
 
 }
