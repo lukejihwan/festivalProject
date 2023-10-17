@@ -27,7 +27,7 @@ class FestivalProjectApplicationTests {
     //축제API 테스트
     @Test
     void festivalTest(){
-
+        System.out.print();
     }
 
 }
