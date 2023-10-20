@@ -10,7 +10,7 @@ class FestivalProjectApplicationTests {
 
 	@Test
 	void contextLoads() {
-
+        System.out.print();
 	}
 
     @Test
