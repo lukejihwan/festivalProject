@@ -11,7 +11,7 @@ class FestivalProjectApplicationTests {
 	@Test
 	void contextLoads() {
         System.out.print();
-        System.out.print();
+        System.out.print("hi");
 	}
 
     @Test
