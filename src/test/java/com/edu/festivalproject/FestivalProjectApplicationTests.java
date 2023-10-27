@@ -19,6 +19,7 @@ class FestivalProjectApplicationTests {
     void adminTest(){
         System.out.print();
         System.out.println();
+        System.out.print();
     }
     
     //Member 테스트
