@@ -24,7 +24,7 @@ public class AdminController {
     @RequestMapping(value = "/admin/page")
     public String getAdminMain() {
 
-
+        ModelAndView mv = new ModelAndView();
 
         return "adminPage/index";
     }
