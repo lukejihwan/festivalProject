@@ -29,4 +29,9 @@ public class AdminController {
         return "adminPage/index";
     }
 
+    public String store(){
+
+        return "";
+    }
+
 }
