@@ -30,7 +30,7 @@ public class AdminController {
     }
 
     public String store(){
-
+        System.out.println();
         return "";
     }
 
