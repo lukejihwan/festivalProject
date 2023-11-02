@@ -25,6 +25,7 @@ public class AdminController {
     public String getAdminMain() {
 
         ModelAndView mv = new ModelAndView();
+        ModelAndView mav = new ModelAndView();
 
         return "adminPage/index";
     }
