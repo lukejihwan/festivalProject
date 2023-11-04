@@ -33,6 +33,7 @@ class FestivalProjectApplicationTests {
     @Test
     void festivalTest(){
         System.out.print();
+        System.out.println();
     }
 
 }
