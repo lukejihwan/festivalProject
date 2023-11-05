@@ -31,8 +31,6 @@ public class AdminController {
     }
 
     public String store(){
-        System.out.println();
-        System.out.println();
         return "";
     }
 
