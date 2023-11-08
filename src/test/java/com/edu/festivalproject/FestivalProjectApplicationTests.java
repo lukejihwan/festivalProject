@@ -20,6 +20,7 @@ class FestivalProjectApplicationTests {
         System.out.print();
         System.out.println();
         System.out.print();
+        BufferedReader br = new BufferedReader(new InputstreamReader(System.in));
     }
     
     //Member 테스트
