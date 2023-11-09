@@ -21,7 +21,8 @@ class FestivalProjectApplicationTests {
         System.out.println();
         System.out.print();
         BufferedReader br = new BufferedReader(new InputstreamReader(System.in));
-    }
+       br.readline();
+ }
     
     //Member 테스트
     @Test
