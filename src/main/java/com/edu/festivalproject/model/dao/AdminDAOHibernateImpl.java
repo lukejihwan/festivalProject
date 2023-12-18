@@ -43,4 +43,6 @@ public class AdminDAOHibernateImpl implements AdminDAO{
     public boolean existedById(ID primarykey) {
         return false;
     }
+
+    private void getfestival(){}
 }
