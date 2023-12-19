@@ -36,7 +36,7 @@ public class AdminDAOHibernateImpl implements AdminDAO{
 
     @Override
     public void delete() {
-
+        FestivalDto = new FestivalDto();
     }
 
     @Override
