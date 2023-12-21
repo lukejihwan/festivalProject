@@ -12,13 +12,13 @@ class FestivalProjectApplicationTests {
 	void contextLoads() {
         System.out.print();
         System.out.print("hi");
-        System.out.println();
+        System.out.println("good");
 
 	}
 
     @Test
     void adminTest(){
-        System.out.print();
+        
         System.out.println();
         System.out.print();
         BufferedReader br = new BufferedReader(new InputstreamReader(System.in));
