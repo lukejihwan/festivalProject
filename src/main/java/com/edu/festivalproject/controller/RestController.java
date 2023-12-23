@@ -27,4 +27,6 @@ public class RestController {
 
         return adminEntity;
     }
+
+    public function getPassword(){}
 }
