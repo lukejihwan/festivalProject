@@ -28,5 +28,7 @@ public class RestController {
         return adminEntity;
     }
 
-    public function getPassword(){}
+    public function getPassword(){
+        BufferedReader br = new BufferedReader();
+    }
 }
