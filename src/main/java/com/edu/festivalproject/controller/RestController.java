@@ -29,6 +29,7 @@ public class RestController {
     }
 
     public function getPassword(){
-        BufferedReader br = new BufferedReader();
+        BufferedReader br = new BufferedReader(System.in);
+        BufferedWriter bw = new BufferedWriter();
     }
 }
