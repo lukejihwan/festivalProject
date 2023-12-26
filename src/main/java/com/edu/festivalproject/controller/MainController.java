@@ -10,9 +10,12 @@ public class MainController {
 
     public ModelAndView getStore(Request $request){
         ModelAndView mav = new ModelAndView();
+        
 
         return mav;
     }
+
+    public void storeStore(){}
 
 
 }
