@@ -31,7 +31,7 @@ public class FestivalController {
     }
 
     public String UpdateFestival(Request request){
-
+        festivalAPIManager.getfestival();
         return null;
     }
 }
