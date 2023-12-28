@@ -21,4 +21,6 @@ public class AdminServiceImpl implements AdminService{
         AdminEntity adminEntity =adminDAO.selectAdminId(id, pw);
         return adminEntity;
     }
+
+    private void delete(){}
 }
