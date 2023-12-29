@@ -15,7 +15,9 @@ public class MainController {
         return mav;
     }
 
-    public void storeStore(){}
+    public void storeStore(){
+        BufferedReader br = new BufferedReader(System.in);
+    }
 
 
 }
