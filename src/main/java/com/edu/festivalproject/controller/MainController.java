@@ -17,7 +17,10 @@ public class MainController {
 
     public void storeStore(){
         BufferedReader br = new BufferedReader(System.in);
+        BufferedWriter bw = new BufferedWriter(System.out);
     }
+
+    
 
 
 }
