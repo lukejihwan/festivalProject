@@ -20,6 +20,8 @@ public class MainController {
         BufferedWriter bw = new BufferedWriter(System.out);
     }
 
+    public void deleteStore(){}
+
     
 
 
