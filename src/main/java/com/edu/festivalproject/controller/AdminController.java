@@ -15,7 +15,7 @@ public class AdminController {
     public String getAdminLoginMain() throws IOException {
         //이 컨트롤러가 static은 접근 못하고 templates폴더만 접근 가능함
         //테스트를 위한 API호출
-        FestivalAPIManager ap=new FestivalAPIManager();
+        FestivalAPIManager ap = new FestivalAPIManager();
         ap.getfestival();
         //===============================
         return "adminMain";
@@ -31,7 +31,10 @@ public class AdminController {
     }
 
     public String store(){
-        return "";
+        
+        return "index";
     }
+
+    
 
 }
