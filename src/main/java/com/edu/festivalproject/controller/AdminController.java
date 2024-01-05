@@ -10,7 +10,7 @@ import java.io.IOException;
 
 @Controller
 public class AdminController {
-
+ㄹ
     @RequestMapping(value = "/admin")
     public String getAdminLoginMain() throws IOException {
         //이 컨트롤러가 static은 접근 못하고 templates폴더만 접근 가능함
