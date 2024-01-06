@@ -1,7 +1,6 @@
 package com.edu.festivalproject.controller;
 
 import com.edu.festivalproject.util.FestivalAPIManager;
-import org.apache.catalina.connector.Request;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -25,12 +24,12 @@ public class FestivalController {
 
 
 
-    public String getFestival(Request request) throws IOException {
+    public String getFestival() throws IOException {
         festivalAPIManager.getfestival();
         return "";
     }
 
-    public String UpdateFestival(Request request){
+    public String UpdateFestival() throws IOException {
         festivalAPIManager.getfestival();
         return null;
     }

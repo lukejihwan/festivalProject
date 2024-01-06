@@ -5,12 +5,13 @@ import org.springframework.ui.Model;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.swing.text.View;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 
 public class MainController {
 
-    public ModelAndView getStore(Request $request){
+    public ModelAndView getStore(){
         ModelAndView mav = new ModelAndView();
-        
 
         return mav;
     }
