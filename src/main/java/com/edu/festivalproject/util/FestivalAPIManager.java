@@ -13,12 +13,12 @@ import java.net.*;
 
 //축제 API요청하는 클래스
 public class FestivalAPIManager {
-    Logger logger= LoggerFactory.getLogger(this.getClass());
+    Logger logger = LoggerFactory.getLogger(this.getClass());
     @Value("${festival-api-key}")
-    private String apiKey="";
+    private String apiKey = "";
 
-    String requestUrl=""; //서비스키 숨길 공간이 필요
-    String a = ""
+    String requestUrl = ""; //서비스키 숨길 공간이 필요
+    String a = "";
 
     public String getfestival() throws IOException {
         //API요청하기

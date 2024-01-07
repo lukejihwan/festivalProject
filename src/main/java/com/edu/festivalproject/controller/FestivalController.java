@@ -22,11 +22,9 @@ public class FestivalController {
         return "main";
     }
 
-
-
     public String getFestival() throws IOException {
         festivalAPIManager.getfestival();
-        return "";
+        return null;
     }
 
     public String UpdateFestival() throws IOException {
