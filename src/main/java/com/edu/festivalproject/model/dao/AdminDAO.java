@@ -9,5 +9,6 @@ public interface AdminDAO {
     public AdminEntity selectAdminId(String id, String pw);
    long count();
    void delete();
+    void update();
    boolean existedById(ID primarykey);
 }
