@@ -7,8 +7,8 @@ import java.util.Optional;
 
 public interface AdminDAO {
     public AdminEntity selectAdminId(String id, String pw);
-   long count();
-   void delete();
-    void update();
+    punlic long count();
+    punlic void delete();
+    public void update();
    boolean existedById(ID primarykey);
 }
