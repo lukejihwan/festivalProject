@@ -15,9 +15,9 @@ public class FestivalEntity {
     private Integer adminpk;
 
     @Column
-    private String adminid;
+    private String adminid(){};
 
     @Column
-    private String adminpw;
+    private String adminpw(){};
 
 }
