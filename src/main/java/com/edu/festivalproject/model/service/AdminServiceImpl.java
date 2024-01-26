@@ -22,5 +22,7 @@ public class AdminServiceImpl implements AdminService{
         return adminEntity;
     }
 
+    public void store(){}
+
     private void delete(){}
 }
