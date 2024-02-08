@@ -23,6 +23,8 @@ public class MainController {
 
     public void deleteStore(){}
 
+    public void updateStore(){}
+
     
 
 
