@@ -20,4 +20,7 @@ public class FestivalEntity {
     @Column
     private String adminpw(){};
 
+    @Column
+    private String adminname(){};
+
 }
