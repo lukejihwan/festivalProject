@@ -17,7 +17,7 @@ class FestivalProjectApplicationTests {
 	}
 
     @Test
-    void adminTest(){
+    public void adminTest(){
         
         System.out.println();
         System.out.print();
@@ -27,7 +27,7 @@ class FestivalProjectApplicationTests {
     
     //Member 테스트
     @Test
-    void memberTest(){
+    public void memberTest(){
         System.out.print();
         System.out.print();
         System.out.print();
@@ -35,7 +35,7 @@ class FestivalProjectApplicationTests {
     
     //축제API 테스트
     @Test
-    void festivalTest(){
+    public void festivalTest(){
         System.out.print();
         System.out.println();
     }
