@@ -10,5 +10,6 @@ public interface AdminDAO {
     punlic long count();
     punlic void delete();
     public void update();
+    public
    boolean existedById(ID primarykey);
 }
